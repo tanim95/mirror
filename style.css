@@ -12,7 +12,7 @@ html {
 /* //////////////////////// header ///////////// */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.69)),
-    url(./img2.jpg);
+    url(./image/img2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ h1 {
 /* //////////////////////// Testimonials /////////////// */
 .section-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./img1.jpg);
+    url(./image/img1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -151,7 +151,7 @@ h1 {
 }
 .section-testimonials h2:after {
   content: "";
-  margin: 1rem auto;
+  margin: 1rem auto
   display: block;
   height: 0.1rem;
   width: 9rem;
@@ -223,7 +223,7 @@ cite img {
       rgba(245, 246, 250, 0.88) 50%,
       rgba(44, 62, 80, 0.77) 50%
     ),
-    url(./img4.jpg);
+    url(./image/img4.jpg);
   background-size: cover;
   background-position: center;
   padding: 10rem 0.5rem;
