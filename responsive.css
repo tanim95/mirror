@@ -1,0 +1,125 @@
+/* computers: from 1201 to 1300*/
+/* computers: from 1024 to 1200 */
+@media only screen and (max-width: 1900px) {
+  form button {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .section-holder {
+    background-image: linear-gradient(
+      70deg,
+      rgba(25, 42, 86, 1) 64%,
+      rgba(39, 60, 117, 0.88) 50%
+    );
+    display: block;
+  }
+  .details {
+    display: none;
+  }
+  .footer .icon i {
+    margin-right: 0.6rem;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  .contact {
+    display: inline-block;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  form button {
+    width: 10%;
+  }
+}
+
+/* computers: from 1024 to 1200 */
+@media only screen and (max-width: 1200px) {
+  .section-holder {
+    background-image: linear-gradient(
+      70deg,
+      rgba(25, 42, 86, 1) 64%,
+      rgba(39, 60, 117, 0.88) 50%
+    );
+    display: block;
+  }
+  .details {
+    display: none;
+  }
+  .footer .icon i {
+    margin-right: 0.6rem;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  .contact {
+    display: inline-block;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  form button {
+    width: 10%;
+  }
+  footer {
+    padding-left: 15rem;
+  }
+}
+
+/* big tablets: from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+  .section-holder {
+    background-image: linear-gradient(
+      70deg,
+      rgba(25, 42, 86, 1) 64%,
+      rgba(39, 60, 117, 0.88) 50%
+    );
+    display: block;
+  }
+  .contact {
+    display: inline-block;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .details {
+    display: none;
+  }
+  form button {
+    width: 9%;
+  }
+  .team {
+    flex: 1;
+    width: 25%;
+  }
+  .team-main {
+    width: 90%;
+  }
+  .footer .icon {
+    margin-left: 3rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  form button {
+    width: 13%;
+  }
+  .team p {
+    margin-right: 4rem;
+  }
+  .footer .icon i {
+    margin-right: 0.6rem;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+}
+
+/* small tablets: from 481 to 768p */
+@media only screen and (max-width: 768px) {
+}
+
+/* small phones: from 0 to 480p */
+@media only screen and (max-width: 480px) {
+  form button {
+    width: 15%;
+  }
+}
