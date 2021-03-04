@@ -23,7 +23,7 @@ header {
   color: rgba(255, 255, 255, 0.808);
   position: absolute;
   width: 70%;
-  top: 70%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
@@ -35,21 +35,24 @@ h1 {
   font-weight: 400;
 }
 .btn {
+  width: 6rem;
   opacity: 0.88;
   position: absolute;
-  background-color: #353b48;
+  background-color: rgba(39, 60, 117, 0.8);
   border-radius: 0.2rem;
   margin-top: 1rem;
-  padding: 0.6rem 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 1.4rem;
   font-weight: 500;
   color: #fff;
   text-decoration: none;
-  letter-spacing: 0rem;
+  font-size: 0.9rem;
 }
 .btn:hover,
 .btn:active {
   opacity: 1;
-  background-color: #2f3542;
+  background-color: #273c75;
 }
 /* //////////////////////// navbar ///////////// */
 .logo {
@@ -124,6 +127,18 @@ h1 {
   width: 100%;
   height: auto;
 }
+/* .crd:hover {
+  color: #0c2461;
+  animation: animate 1s forwards;
+}
+@keyframes animate {
+  50% {
+    clip-path: polygon(0 0, 0 100%, 33% 100%, 57% 0%);
+  }
+  100% {
+    clip-path: polygon(100% 0, 100% 100%, 33% 100%, 57% 0%);
+  }
+} */
 .preview .main-crd li:first-child {
   grid-column-start: span 2;
   grid-row-start: span 2;
@@ -138,10 +153,6 @@ h1 {
   grid-column-start: span 3;
   grid-column-start: span 2;
 }
-.crd img:hover {
-  transform: scale(1.009);
-  transition: transform 0.3s;
-}
 
 /* //////////////////////// service ///////////// */
 .section-main {
@@ -149,7 +160,7 @@ h1 {
 }
 .pre-card {
   position: absolute;
-  margin-top: -3.5rem;
+  margin-top: -4rem;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -207,7 +218,7 @@ h1 {
 .section-testimonials h2 {
   font-weight: 300;
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -292,13 +303,13 @@ cite img {
   background-position: center;
   padding: 10rem 0.5rem;
   margin: 1rem 1.5rem;
-  box-shadow: -1rem 1rem 1rem rgba(113, 128, 147, 0.8);
+  /* box-shadow: -1rem 1rem 1rem rgba(113, 128, 147, 0.8); */
   position: relative;
 }
-.contact-form:hover {
+/* .contact-form:hover {
   transform: scaleX(1.01) scaleY(1.01);
   transition: transform 0.2s;
-}
+} */
 .contact-form h2 {
   position: absolute;
   top: 10%;
@@ -388,7 +399,8 @@ form button:hover {
 .about-us h2 {
   font-weight: 400;
   letter-spacing: 0.2rem;
-  margin-left: 43%;
+  margin-left: 40%;
+  margin-top: 3rem;
 }
 .about-us h2::after {
   content: "";
@@ -413,6 +425,7 @@ form button:hover {
   height: 7rem;
   border-radius: 100%;
   position: relative;
+  object-fit: cover;
 }
 .section-holder .details {
   padding: 1rem 3rem;
@@ -431,7 +444,7 @@ form button:hover {
 .footer {
   background-image: linear-gradient(to left, #273c75 50%, #192a56 50%);
   height: 20rem;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -448,6 +461,10 @@ form button:hover {
 .footer .find-us li {
   margin-top: 0.3rem;
 }
+.footer .find-us li:hover {
+  transform: scaleX(1.03) scaleY(1.03);
+  transition: transform 0.1s;
+}
 .footer .icon {
   padding-top: 15rem;
   margin-left: 8rem;
@@ -459,9 +476,17 @@ form button:hover {
   font-weight: 400;
   margin-bottom: 0.3rem;
 }
+.icon i:hover {
+  transform: scaleX(1.05) scaleY(1.05);
+  transition: transform 0.1s;
+}
 .footer .icon i {
   margin-right: 1.1rem;
   font-size: 1.3rem;
+}
+.connect i:hover {
+  transform: scaleX(1.03) scaleY(1.03);
+  transition: transform 0.1s;
 }
 .fa-twitter {
   color: #00a8ff;
