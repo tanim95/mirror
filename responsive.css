@@ -18,6 +18,12 @@
   .details {
     display: none;
   }
+  .card-4 {
+    box-shadow: none;
+  }
+  .card-4:hover {
+    transform: none;
+  }
   .footer .icon i {
     margin-right: 0.6rem;
     font-size: 0.9rem;
@@ -46,6 +52,22 @@
   }
   .details {
     display: none;
+  }
+  .crd p {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    color: #fff;
+    font-style: italic;
+  }
+  blockquote {
+    margin-top: 0.9rem;
+  }
+  .card-4 {
+    box-shadow: none;
+  }
+  .card-4:hover {
+    transform: none;
   }
   .footer .icon i {
     margin-right: 0.6rem;
@@ -76,6 +98,32 @@
     );
     display: block;
   }
+  .crd p {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: #fff;
+    font-style: italic;
+  }
+  blockquote {
+    margin-top: 0.9rem;
+  }
+  .preview {
+    margin: 0.5rem 0.5rem;
+  }
+  .preview h2 {
+    font-weight: 400;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 30%;
+    letter-spacing: 0.1rem;
+  }
+  .card-4 {
+    box-shadow: none;
+  }
+  .card-4:hover {
+    transform: none;
+  }
   .contact {
     display: inline-block;
   }
@@ -85,40 +133,104 @@
   .details {
     display: none;
   }
+  .section-testimonials h2 {
+    top: 15%;
+  }
   form button {
     width: 9%;
   }
+  .team-main {
+    width: 100%;
+  }
   .team {
-    flex: 1;
     width: 25%;
   }
-  .team-main {
-    width: 90%;
-  }
   .footer .icon {
-    margin-left: 3rem;
+    margin-left: 13%;
   }
 }
 @media only screen and (max-width: 960px) {
   form button {
     width: 13%;
   }
+  .preview h2 {
+    margin-left: 15%;
+  }
+  .crd p {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: #fff;
+    font-style: italic;
+  }
   .team p {
     margin-right: 4rem;
+  }
+  .footer .icon {
+    margin-left: 5%;
   }
   .footer .icon i {
     margin-right: 0.6rem;
     font-size: 0.9rem;
     display: inline-block;
   }
+  footer small {
+    margin-left: -25%;
+  }
 }
 
-/* small tablets: from 481 to 768p */
+/* small tablets: from 360 to 768p */
 @media only screen and (max-width: 768px) {
+  .crd p {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: #fff;
+    font-style: italic;
+  }
+  .preview h2 {
+    margin-left: 20%;
+  }
+  .preview .main-crd ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .preview .main-crd li:nth-child(2n) {
+    display: none;
+  }
+  .preview .main-crd ul li {
+    padding: 2rem;
+  }
+  .team img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    position: relative;
+    object-fit: cover;
+  }
+  .about-us h2 {
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    margin-left: 35%;
+    margin-top: 3rem;
+  }
+  .team .icn a i {
+    margin-right: 0.3rem;
+    padding: 0.2rem;
+    display: inline-block;
+  }
+  .footer .icon {
+    margin-left: 3%;
+  }
+  footer small {
+    margin-left: -35%;
+  }
 }
 
 /* small phones: from 0 to 480p */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
   form button {
     width: 15%;
   }

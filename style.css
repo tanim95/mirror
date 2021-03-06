@@ -11,7 +11,7 @@ html {
 }
 /* //////////////////////// header ///////////// */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.69)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./image/img2.jpg);
   background-position: center;
   background-size: cover;
@@ -124,21 +124,28 @@ h1 {
   margin: 0.1rem;
 }
 .crd img {
+  padding: 0.2rem;
   width: 100%;
   height: auto;
+  transform: scale(1.02);
 }
-/* .crd:hover {
-  color: #0c2461;
-  animation: animate 1s forwards;
+.crd-fix {
+  padding: 0.4rem;
 }
-@keyframes animate {
-  50% {
-    clip-path: polygon(0 0, 0 100%, 33% 100%, 57% 0%);
-  }
-  100% {
-    clip-path: polygon(100% 0, 100% 100%, 33% 100%, 57% 0%);
-  }
-} */
+.crd {
+  position: relative;
+}
+.crd p {
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  color: #fff;
+  font-style: italic;
+}
+.crd img:hover {
+  transform: scale(1);
+  transition: transform 0.5s;
+}
 .preview .main-crd li:first-child {
   grid-column-start: span 2;
   grid-row-start: span 2;
@@ -337,7 +344,7 @@ form {
   flex-direction: column;
 }
 form input {
-  width: 25%;
+  width: 35%;
   padding: 0.3rem 1rem;
   font-size: 0.8rem;
   background-color: rgba(245, 246, 250, 0.7);
@@ -348,7 +355,7 @@ form input:focus {
   border-bottom: 0.15rem solid #222f3e;
 }
 textarea {
-  width: 25%;
+  width: 35%;
   font-size: 0.7rem;
   font-weight: 500;
   padding: 0.5rem 0.5rem;
@@ -426,6 +433,17 @@ form button:hover {
   border-radius: 100%;
   position: relative;
   object-fit: cover;
+}
+.team .icn i {
+  padding: 0.2rem;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+  background-color: #ecf0f1;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+.fa-github {
+  color: #34495e;
 }
 .section-holder .details {
   padding: 1rem 3rem;
