@@ -407,7 +407,7 @@ form button:hover {
   font-weight: 400;
   letter-spacing: 0.2rem;
   margin-left: 40%;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 }
 .about-us h2::after {
   content: "";
