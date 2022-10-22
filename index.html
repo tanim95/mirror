@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Ballet&family=Lato&family=Newsreader:wght@300&family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script defer src="https://kit.fontawesome.com/fae03b2720.js" crossorigin="anonymous"></script>
     <script defer src="script.js"></script>
     <title>portfolio</title>
   </head>
@@ -19,45 +21,97 @@
         <img class="logo" src="./image/logo.png" alt="logo" />
         <ul>
           <li><a href="#">service</a></li>
-          <li><a href="#">feature</a></li>
+          <li><a href="#">preview</a></li>
           <li><a href="#">testimony</a></li>
           <li><a href="#">about us</a></li>
         </ul>
       </nav>
       <div class="hdr">
         <h1>Build Website as You Like</h1>
-        <a class="btn" href="#">contact us</a>
+        <a class="btn" href="#section-main">more</a>
       </div>
     </header>
+    <!--/////////////////////////////////////////////////////////preview ///////////////////// -->
     <section class="preview">
+      <h2>Here is some instance of our work</h2>
       <div class="main-crd">
-        <div class="crd crd-1">
-          <img src="" alt="">
-        </div>
-        <div class="crd crd-2">
-          <img src="" alt="">
-        </div>
-        <div class="crd crd-3">
-          <img src="" alt="">
-        </div>
-        <div class="crd crd-4">
-          <img src="" alt="">
-        </div>
-        <div class="crd crd-5">
-          <img src="" alt="">
-        </div>
-        <div class="crd crd-5">
-          <img src="" alt="">
-        </div>
+        <ul>
+          <li>
+            <figure class="crd">
+              <img src="./image/img15.jpg" alt="img7">
+              <p>ninos home</p>
+            </figure>
+          </li>
+          <li>
+            <figure class="crd">
+            <img src="./image/img8.jpg" alt="img8">
+            <p>travel thirsty</p>
+          </figure>
+        </li>
+          <li>
+            <figure class="crd">
+            <img src="./image/img16.jpg" alt="img12">
+            <p>lorem</p>
+          </figure>
+        </li>
+          <li> 
+            <figure class="crd crd-fix">
+            <img src="./image/img22.jpg" alt="img14">
+            <p>ipsom dolomat</p>
+          </figure>
+        </li>
+          <li>
+            <figure class="crd">
+              <img src="./image/img10.jpg" alt="img9">
+              <p>restaurent</p>
+            </figure>
+          </li>
+          <li>
+            <figure class="crd">
+            <img src="./image/img11.jpg" alt="img10">
+            <p>e-commerce</p>
+          </figure>
+        </li>
+          <li>
+            <figure class="crd">
+            <img src="./image/img18.jpg" alt="img13">
+            <p>hotel booking</p>
+          </figure>
+        </li>
+          <li> 
+            <figure class="crd">
+            <img src="./image/img20.jpg" alt="img11">
+            <p>admin dashboard</p>
+          </figure>
+        </li>
+        <li> 
+          <figure class="crd">
+          <img src="./image/img19.jpg" alt="img11">
+          <p>royal institute</p>
+        </figure>
+      </li>
+      <li> 
+        <figure class="crd">
+        <img src="./image/img7.jpg" alt="img11">
+        <p>library management</p>
+      </figure>
+    </li>
+    <li> 
+      <figure class="crd">
+      <img src="./image/img23.jpg" alt="img11">
+      <p>pharmacy management</p>
+    </figure>
+  </li>
+      </ul>
       </div>
     </section>
-
+<!--/////////////////////////////////////////////////////////service ///////////////////// -->
     <section class="section-main">
       <div class="pre-card">
-        <h2>" Choose your deal that best fits with you"</h2>
+        <h2>Choose your deal that best fits with you</h2>
       </div>
-      <div class="main-card">
-        <div class="card card-1">
+      <div class="main-card">      
+          <div class="card card-1">
           <h4>simple website</h4>
           <br />
           <p>
@@ -104,8 +158,35 @@
       </div>
     </section>
 
+    <!--/////////////////////////////////////////////////////////contact-form ///////////////////// -->
+
+    <section class="contact">
+      <div class="contact-form">
+        <h2>Welcome</h2>
+        <p>Write us,We are listining!
+        </p>
+        <form action="">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" > <br>
+         <textarea maxlength="250" name="" id="textarea" cols="10" rows="4">Your text</textarea>
+         <button><a class="link-1" href="#">Submit</a></button>
+          
+        </form>
+      </div>
+      <div class="card card-4">
+          <h4>Still confused? <br />check our full ready website</h4>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            voluptates asperiores repellat consectetur, sunt harum corrupti ab
+            tenetur perspiciatis expedita!
+          </p>
+          <br />
+          <a class="button" href="#">More</a>
+    </section>
+<!--/////////////////////////////////////////////////////////testimonials ///////////////////// -->
     <section class="section-testimonials">
-      <h2>Some of our client reviews...</reviews></h2>
+      <h2>Some of our client reviews...</h2>
       <div class="comment">
         <div class="testimonials">
           <blockquote>
@@ -130,31 +211,93 @@
         </div>
       </div>
     </section>
-    <section class="contact">
-      <div class="contact-form">
-        <h2>Welcome</h2>
-        <p>Lorem ipsum dolor sit amet, adipisicing elit. Facere, quasi!
-        </p>
-        <form action="">
-          <label for="email">Email:</label>
-          <input type="email" name="" id="email" > <br>
-          <label for="password">Password:</label>
-          <input type="password" name="" id="password">
-          <button><a href="#">Login</a></button> <br>
-          or <a class="link" href="#">Register</a>
-          
-        </form>
+
+    <!--///////////////////////////////////////////////////////// about us ///////////////////// -->
+      
+    <div class="section-holder">
+    <section class="about-us">
+      <h2>Meet The Team</h2>
+      <div class="team-main">
+          <div class="team">
+            <img src="./image/sakib.jpeg" alt="SAKIB ZAMAN"><br>
+            <h4>SAKIB ZAMAN</h4> <h5><i>Designer & SEO Expert</i></h5>
+            <div class="icn">
+              <a href="https://github.com/Sakib0123"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+
+          </div>
+          <div class="team">
+            <img src="./image/tanim.jpg" alt="ANISUR RAHMAN"><br>
+            <h4>ANISUR RAHMAN</h4> <h5><i>Fullstack Developer</i></h5>
+            <div class="icn">
+              <a href="https://github.com/tanim95"><i class="fab fa-github"></i></a>
+              <a href="https://twitter.com/yeahitstanim"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+
+          </div>
+          <div class="team">
+          <img src="./image/ppl2.jpg" alt="MOSHIUR RAHMAN"><br>
+          <h4>MOSHIUR RAHMAN</h4> <h5><i>Fullstack Developer</i></h5>
+          <div class="icn">
+            <a href="https://github.com/Shadin710"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+
+        </div>
+        <div class="team">
+          <img src="./image/ppl4.jpg" alt="AHMED RAFSAN ZANI"><br>
+          <h4>AHMED RAFSAN ZANI</h4> <h5><i>Backend Developer</i></h5>
+          <div class="icn">
+            <a href="https://github.com/ar-zani"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+
+        </div>
       </div>
-      <div class="card card-4">
-          <h4>Still confused? <br />check our full ready website</h4>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            voluptates asperiores repellat consectetur, sunt harum corrupti ab
-            tenetur perspiciatis expedita!
-          </p>
-          <br />
-          <a class="button" href="#">More</a>
     </section>
+
+    <section class="details">
+     <p>Lorem ipsum, dolor sit amet consectetur
+       adipisicing elit. Delectus accusantium
+        reiciendis doloremque ratione 
+        non maiores earum modi
+         assumenda in perspiciatis!
+        </p> 
+    </section>
+  </div>
+  <!--///////////////////////////////////////////////////////// footer///////////////////// -->
+  <section class="footer">
+    <div class="find-us">
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="#">iOS App</a></li>
+        <li><a href="#">Andriod App</a></li>
+      </ul>
+  </div>
+</div>
+<div class="icon">
+ <h4>Find Us Here</h4>
+ <a href="#"><i class="fab fa-twitter"></i></a>
+ <a href="#"><i class="fab fa-linkedin"></i></a>
+ <a href="#"><i class="fab fa-facebook"></i></a>
+ <a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+ <div class="connect">
+   <h4>Contact Us :</h4>
+   <i class="far fa-envelope"><a class="mail" href="#">mirror@gmail.com</a></i> <br>
+   <i class="fas fa-phone-volume"><a class="phone" href="tel:+9954758132">Phone:+9954758132</a></i>
+ </div>
+</section>
+
+  <footer>
+ <small>Copyright&copy; 2021 by Mirror. All Rights Reserved</small> 
+  </footer>
   </body>
 </html>

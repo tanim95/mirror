@@ -1,0 +1,468 @@
+/* computers: from 1201 to 1300*/
+/* computers: from 1024 to 1200 */
+@media only screen and (max-width: 1900px) {
+  form button {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .section-holder {
+    background-image: linear-gradient(
+      70deg,
+      rgba(25, 42, 86, 1) 64%,
+      rgba(39, 60, 117, 0.88) 50%
+    );
+    display: block;
+  }
+  .details {
+    display: none;
+  }
+  .card-4 {
+    box-shadow: none;
+  }
+  .card-4:hover {
+    transform: none;
+  }
+  .footer .icon i {
+    margin-right: 0.6rem;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  .contact {
+    display: inline-block;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  form button {
+    width: 10%;
+  }
+}
+
+/* computers: from 1024 to 1200 */
+@media only screen and (max-width: 1200px) {
+  .section-holder {
+    background-image: linear-gradient(
+      70deg,
+      rgba(25, 42, 86, 1) 64%,
+      rgba(39, 60, 117, 0.88) 50%
+    );
+    display: block;
+  }
+  .details {
+    display: none;
+  }
+  .crd p {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    color: #fff;
+    font-style: italic;
+  }
+  blockquote {
+    margin-top: 0.9rem;
+  }
+  .card-4 {
+    box-shadow: none;
+  }
+  .card-4:hover {
+    transform: none;
+  }
+  .footer .icon i {
+    margin-right: 0.6rem;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  .contact {
+    display: inline-block;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  form button {
+    width: 10%;
+  }
+  footer {
+    padding-left: 15rem;
+  }
+}
+
+/* big tablets: from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+  .section-holder {
+    background-image: linear-gradient(
+      70deg,
+      rgba(25, 42, 86, 1) 64%,
+      rgba(39, 60, 117, 0.88) 50%
+    );
+    display: block;
+  }
+  .crd p {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    color: #fff;
+    font-style: italic;
+  }
+  blockquote {
+    margin-top: 0.9rem;
+  }
+  .preview {
+    margin: 0.5rem 0.5rem;
+  }
+  .preview h2 {
+    font-weight: 400;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 30%;
+    letter-spacing: 0.1rem;
+  }
+  .card-4 {
+    box-shadow: none;
+  }
+  .card-4:hover {
+    transform: none;
+  }
+  .contact {
+    display: inline-block;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .details {
+    display: none;
+  }
+  .section-testimonials h2 {
+    top: 15%;
+  }
+  form button {
+    width: 9%;
+  }
+  .team-main {
+    width: 100%;
+  }
+  .team {
+    width: 25%;
+  }
+  .footer .icon {
+    margin-left: 13%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  form button {
+    width: 13%;
+  }
+  .preview h2 {
+    margin-left: 15%;
+  }
+  .main-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 8rem 2.5rem;
+    justify-content: center;
+  }
+  .crd p {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: #fff;
+    font-style: italic;
+  }
+  .testimonials {
+    padding: 4rem 0.5rem;
+    margin: 3rem 1.5rem;
+  }
+  .team p {
+    margin-right: 4rem;
+  }
+  .footer .icon {
+    margin-left: 5%;
+  }
+  .footer .icon i {
+    margin-right: 0.6rem;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  footer small {
+    margin-left: -25%;
+  }
+}
+
+/* small tablets: from 360 to 768p */
+@media only screen and (max-width: 768px) {
+  .crd p {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: #fff;
+    font-style: italic;
+  }
+  .preview h2 {
+    margin-left: 20%;
+  }
+  .preview .main-crd ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .preview .main-crd li:nth-child(2n) {
+    display: none;
+  }
+  .preview .main-crd ul li {
+    padding: 2rem;
+  }
+  .section-main {
+    height: 5%;
+  }
+  .main-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 8rem 2.5rem;
+    justify-content: center;
+  }
+  .about-us {
+    padding: 0.2rem;
+  }
+  .team img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    position: relative;
+    object-fit: cover;
+  }
+  .about-us h2 {
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    margin-left: 35%;
+    margin-top: 3rem;
+  }
+  .team .icn a i {
+    margin-right: 0.3rem;
+    padding: 0.2rem;
+    display: inline-block;
+  }
+  .section-testimonials h2 {
+    font-size: 1.2rem;
+  }
+  .testimonials {
+    padding: 4rem 0.5rem;
+    margin: 3rem 1.5rem;
+  }
+  .footer .icon {
+    margin-left: -1%;
+  }
+  footer small {
+    margin-left: -35%;
+  }
+  form input {
+    width: 75%;
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+    background-color: rgba(245, 246, 250, 0.7);
+    border: none;
+  }
+  textarea {
+    width: 75%;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    background-color: rgba(245, 246, 250, 0.7);
+    border: none;
+  }
+  form button {
+    width: 20%;
+  }
+}
+
+/* small phones: from 0 to 480p */
+@media only screen and (max-width: 600px) {
+  .navbar img {
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+  .navbar ul {
+    font-size: 0.7rem;
+  }
+  .navbar ul li {
+    margin-right: 0rem;
+  }
+  .hdr h1 {
+    font-size: 1.5rem;
+  }
+  .preview h2 {
+    font-size: 1.2rem;
+    margin-left: 12%;
+  }
+  .preview h2::after {
+    content: "";
+    margin: 0.6rem 4rem;
+    display: block;
+    height: 0.1rem;
+    width: 10rem;
+    background-color: #222f3e;
+  }
+  .about-us {
+    padding: 0.2rem;
+  }
+  .about-us h2 {
+    font-size: 1.2rem;
+  }
+  .team-main {
+    width: 100%;
+  }
+  .team-main .team {
+    padding-right: 1rem;
+  }
+  .team img {
+    margin-left: 0;
+    padding: 0;
+    width: 4rem;
+    height: 4rem;
+  }
+  .team .icn a i {
+    background-color: transparent;
+    margin-right: 0rem;
+    padding: 0.1rem;
+    display: inline-block;
+  }
+  .team h4 {
+    font-size: 0.7rem;
+  }
+  .team h5 {
+    font-size: 0.6rem;
+  }
+  .pre-card h2 {
+    font-size: 1.2rem;
+  }
+  .contact-form {
+    margin-left: 5%;
+  }
+  form input {
+    width: 75%;
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+    background-color: rgba(245, 246, 250, 0.7);
+    border: none;
+  }
+  textarea {
+    width: 75%;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    background-color: rgba(245, 246, 250, 0.7);
+    border: none;
+  }
+  form button {
+    width: 5rem;
+  }
+  .find-us {
+    margin-left: -20%;
+  }
+  .find-us li {
+    font-size: 0.8rem;
+  }
+  .section-testimonials h2 {
+    font-size: 1.2rem;
+  }
+  .connect a {
+    font-size: 0.8rem;
+  }
+  .footer .find-us {
+    margin: 20% 0% 0% 12%;
+    padding: 1rem;
+  }
+  .footer .connect {
+    font-weight: 0.6rem;
+    margin: 25% 0% 0% -45%;
+    padding-right: 2rem;
+  }
+  .footer .icon {
+    margin-left: -35%;
+  }
+  footer small {
+    font-size: 0.6rem;
+    margin-left: -105%;
+  }
+  .footer {
+    display: flex;
+  }
+  .footer .icon h4 {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* .logo {
+    flex: 1;
+  } */
+  .navbar ul {
+    padding: 0;
+    display: flex;
+    margin-left: 1rem;
+    font-size: 0.7rem;
+  }
+  /* .navbar ul li {
+    margin-top: 0.1rem;
+    margin-right: 0rem;
+  } */
+  .contact-form {
+    margin-left: 4%;
+  }
+  .team-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-testimonials h2 {
+    margin-top: -40%;
+    font-size: 1.2rem;
+  }
+  .comment {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-us h2 {
+    margin-left: 25%;
+  }
+  .footer {
+    display: flex;
+  }
+  .find-us {
+    width: 100%;
+  }
+  .footer .find-us {
+    margin: 25% 0% 0% 9%;
+    padding: 1rem;
+  }
+  .footer .connect {
+    font-weight: 0.6rem;
+    margin: 45% 0% 0% -30%;
+    padding-right: 0.5rem;
+  }
+  .footer .connect h4 {
+    font-size: 0.9rem;
+  }
+  .footer .connect i {
+    font-size: 0.6rem;
+  }
+  .footer .icon {
+    margin-left: -22%;
+  }
+  footer small {
+    display: flex;
+    font-size: 0.5rem;
+    margin-left: -1500%;
+  }
+  .footer {
+    display: flex;
+  }
+  .footer .icon h4 {
+    font-size: 0.9rem;
+  }
+}
